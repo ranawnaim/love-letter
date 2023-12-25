@@ -93,7 +93,8 @@
 
 
 body {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Quicksand', sans-serif;
+
 
   background: linear-gradient(-45deg, white, #fee4e1, #b4d3dd, #bab4dd);
   background-size: 400% 400%;

@@ -31,20 +31,6 @@
 
 
     <div id="inside" class="close-card">
-        <audio controls id="myAudio" autoplay loop>
-            <source src="./music/videoplayback.mp4" type="audio/mp4">
-            Maaf, browser Anda tidak mendukung elemen audio.
-        </audio>
-
-        <script>
-            // Coba memulai audio saat layar disentuh
-            document.addEventListener('touchstart', function() {
-                var myAudio = document.getElementById('myAudio');
-                myAudio.play();
-                // Hapus event listener setelah satu kali interaksi
-                document.removeEventListener('touchstart', arguments.callee);
-            });
-        </script>
     <span id="inside-recipient">
      Dear Lidya,
         <br>
@@ -84,6 +70,20 @@
             Love, <br>
             Naim
         </p>
+        <audio controls id="myAudio" autoplay loop>
+            <source src="./music/videoplayback.mp4" type="audio/mp4">
+            Maaf, browser Anda tidak mendukung elemen audio.
+        </audio>
+
+        <script>
+            // Coba memulai audio saat layar disentuh
+            document.addEventListener('touchstart', function() {
+                var myAudio = document.getElementById('myAudio');
+                myAudio.play();
+                // Hapus event listener setelah satu kali interaksi
+                document.removeEventListener('touchstart', arguments.callee);
+            });
+        </script>
     </div>
 </main>
 
