@@ -1,18 +1,26 @@
+*{
+  margin-top: 10px;
+}
 #front {
   z-index: 1;
   position: absolute;
-  background-color: #0b6570;
-  width:590px;
-  height: 620px;
+  background-color: #4c91e0;
+  width: auto;
+  height: auto;
   text-align: center;
-  transition: 1s;
+  transition: 500ms;
   transform-origin: 0;
   border: 1px solid #000;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   left: 0;
   right: 0;
   padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.close-card{
+  display: none;
 }
 
 .open-card {
@@ -21,31 +29,45 @@
 
 #front-title {
   max-width: 90%;
-  padding-bottom: 3%;
+  padding-bottom: 8%;
 }
 
 #front-pic {
-  max-width: 75%;
+  max-width: 44%;
+  margin-bottom: 6%;
+}
+
+@media only screen and (max-width: 1000px) {
+  #front-pic {
+    max-width: 85%;
+    margin-bottom: 8%;
+  }
+  #front{
+    padding-top: 12%;
+    padding-bottom: 10%;
+  }
 }
 
 #inside {
   z-index: 0;
   position: absolute;
   background-color: white;
-  width: 590px;
-  height: 620px;
+  width: auto;
+  height: auto;
   text-align: center;
   border: 1px solid #000;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   left: 0;
   right: 0;
-  padding-top: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 #inside-recipient {
   color: #000;
-  font-size: 12pt;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 28pt;
   padding: 20px 0 40px 0;
 }
 
@@ -56,26 +78,27 @@
 }
 
 #message {
-  font-size: 12pt;
+  font-size: 20pt;
   text-align: center;
-  padding: 0 20px 0 20px;
+  padding: 0 100px 0 100px;
 }
 
 #inside-sender {
   color: #000;
-  font-size: 12pt;
+  font-size: 28pt;
   text-align: center;
   padding: 0 20px 0 20px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 
 body {
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Kaushan Script', cursive;
 
   background: linear-gradient(-45deg, white, #fee4e1, #b4d3dd, #bab4dd);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
- 
+
 }
 
 @-webkit-keyframes Gradient {
