@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title> My Lovely </title>
     <!-- style sheet -->
-    <link href="./css/github.css" rel="stylesheet">
+    <link href="css/message-card.css" rel="stylesheet">
     <!-- Tab icon -->
     <link rel="icon" href="../img/CJM.png">
     <!-- fonts -->
@@ -32,21 +32,25 @@
 
     <div id="inside" class="close-card">
     <span id="inside-recipient">
-     Dear Lidya,
+        Dear Lidya <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+        </svg>
+    </span>,
         <br>
         <br>
     </span>
         <p id="message">
-            Sebelumnya, aku minta maaf yaa sayang. Aku sadar kalau aku bikin kesalahan, dan aku gak punya alasan buat
+            Sayang, aku minta maaf yaah. Aku sadar kalau aku bikin kesalahan, dan aku gak punya alasan buat
             ngehindar atau nutupin itu. Aku ngerasa perlu banget ngomongin ini sama kamu karena kamu penting banget buat
             aku.
             <br><br>
             Aku tau mungkin aku masih jauh dari sempurna, tapi percayalah, setiap kesalahan itu bikin aku belajar. Aku
             berjanji buat terus belajar jadi yang terbaik buat diriku dan buat kamu.
             <br><br>
-            Kamu adalah salah satu alasan kenapa aku pengen jadi lebih baik. Setiap hari denganmu adalah reminder buat
+            Kamu adalah salah satu alasan kenapa aku pengen jadi lebih baik. Kamu adalah reminder buat
             aku buat nggak berhenti belajar dan tumbuh. Aku bener-bener bersyukur punya kamu di sisi aku, Sayang. Kamu
-            nggak cuma jadi pacar buatku, tapi juga temen dan mentor yang luar biasa.
+            nggak cuma jadi pacar buatku,  tapi juga sosok yang luar biasa yang selalu membuat hidupku lebih baik dan berwarna.
             <br><br>
             Aku ngerasa beruntung banget punya kesempatan buat memperbaiki kesalahan ini. Aku aware dan siap tanggung
             jawab atas apa yang udah terjadi. Aku nggak bakal berhenti berusaha buat jadi yang lebih baik lagi buat
@@ -56,11 +60,20 @@
             perjalanan ini gak bakal gampang, tapi aku gak takut karena aku tau kamu ada di samping aku.
             <br><br>
             Makanya, mari kita bikin hubungan ini makin istimewa lagi Sayang. Aku gak minta kamu harus ngelupain
-            kesalahan aku, tapi aku janji bakal berusaha keras banget buat bikin kamu bahagia. Kita bisa jadi tim yang
-            mampu mengatasi segala hal bersama, Sayang.
+            kesalahan aku, tapi aku janji bakal berusaha keras banget buat bikin kamu bahagia. Karena tujuanku saat ini, selain
+            orang tuaku, yaitu membahagiakan kamu Sayang. Kita bisa jadi tim yang hebat, yang mampu mengatasi segala hal bersama, Sayang.
             <br><br>
-            Sekali lagi, maaf ya, Sayang. Aku harap kita bisa bersama-sama tumbuh dan memperkuat hubungan ini. Aku
-            sayang banget sama kamu.
+            Sekali lagi, maaf ya, Sayangku. Aku harap kita bisa bersama-sama tumbuh dan terus memperkuat hubungan ini. Aku
+            sayang banget sama kamu. I love you sayang
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                </svg>
+            </span>
 
             <br>
         </p>
@@ -70,7 +83,7 @@
             Love, <br>
             Naim
         </p>
-        <audio controls id="myAudio" autoplay loop>
+        <audio style="display: none" controls id="myAudio" autoplay loop>
             <source src="./music/videoplayback.mp4" type="audio/mp4">
             Maaf, browser Anda tidak mendukung elemen audio.
         </audio>
@@ -88,6 +101,6 @@
 </main>
 
 <!-- Javascript -->
-<script src="./js/github.js"></script>
+<script src="js/message-card.js"></script>
 </body>
 </html>

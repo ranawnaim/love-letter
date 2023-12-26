@@ -4,13 +4,15 @@
 #front {
   z-index: 1;
   position: absolute;
-  background-color: #4c91e0;
+  background: #84e6fd;
+  background: -webkit-linear-gradient(top left, #84e6fd 0%, #fd69b4 100%);
+  background: linear-gradient(to bottom right, #84e6fd 0%, #fd69b4 100%);
   width: auto;
   height: auto;
   text-align: center;
   transition: 500ms;
   transform-origin: 0;
-  border: 1px solid #000;
+  border: 1px solid #1f4787;
   margin-left: 20px;
   margin-right: 20px;
   left: 0;
@@ -39,7 +41,7 @@
 
 @media only screen and (max-width: 1000px) {
   #front-pic {
-    max-width: 85%;
+    max-width: 63%;
     margin-bottom: 8%;
   }
   #front{
