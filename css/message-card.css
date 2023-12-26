@@ -69,7 +69,7 @@
 #inside-recipient {
   color: #000;
   font-family: 'Kaushan Script', cursive;
-  font-size: 28pt;
+  font-size: 32pt;
   padding: 20px 0 40px 0;
 }
 
@@ -87,7 +87,7 @@
 
 #inside-sender {
   color: #000;
-  font-size: 28pt;
+  font-size: 32pt;
   text-align: center;
   padding: 0 20px 0 20px;
   font-family: 'Kaushan Script', cursive;
